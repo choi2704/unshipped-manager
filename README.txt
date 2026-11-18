@@ -1,9 +1,10 @@
-unshipped-manager 통합 테스트 버전
+unshipped-manager · 사방넷 미출고·반송·필수배송 관리 + 일정 달력 (v5)
 
-기능: 사방넷 엑셀 업로드 / 수기입력 / 중복방지 / 미출고 / 반송예정 / 필수배송(긴급·협찬·배송약속·기타) / 배송기한 / 배송확인 / JSON백업 / CSV 내보내기
+사용법
+1. ZIP 압축을 풀어 index.html을 브라우저에서 열어 테스트합니다.
+2. GitHub choi2704/unshipped-manager 저장소에 index.html 파일을 업로드/교체합니다.
+3. GitHub Pages 배포 주소: https://choi2704.github.io/unshipped-manager/
+4. 대시보드의 배송 일정 달력에서 날짜를 클릭하고 + 이 날짜에 등록을 눌러 일정을 작성합니다.
+5. JSON 백업에는 주문과 달력 일정이 포함됩니다. 이전 v4 JSON 백업은 주문만 복원하고 기존 달력 일정은 유지합니다.
 
-중요: 이 버전은 기존 unshipped-manager GitHub 원본을 직접 확인한 수정본이 아닙니다. 앞서 만든 독립적인 HTML 버전을 기반으로 만들었습니다. 기존 저장소 파일 백업 후 교체하세요. 기존 앱의 저장된 데이터는 자동 이전이 보장되지 않으므로 꼭 JSON 백업을 하세요.
-
-GitHub Pages 주소: https://choi2704.github.io/unshipped-manager/ (Pages 활성화 시)
-파일: index.html (루트에 업로드). 엑셀 읽기는 인터넷 연결 필요 (SheetJS CDN).
-현재 기기의 브라우저 localStorage에만 저장됩니다.
+주의: 작업 전 기존 저장소 파일과 JSON 데이터를 백업하세요. 이 앱은 브라우저의 localStorage에 저장하므로 브라우저/기기 간 실시간 동기화되지 않습니다. 엑셀 업로드에는 인터넷 연결(CDN)이 필요합니다.
