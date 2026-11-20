@@ -2,5 +2,5 @@
 // service_role / secret 키는 절대 이 파일에 넣지 마세요.
 window.APP_CONFIG = {
   url: "https://YOUR_PROJECT.supabase.co",
-  anonKey: "YOUR_SUPABASE_PUBLISHABLE_OR_ANON_KEY"
+  anonKey: "sb_publishable_-HDjg8gByN0j9PvwYnNUcg_QUN_hcw_"
 };
